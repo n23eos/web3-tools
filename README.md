@@ -1,4 +1,4 @@
-<p align="center"><img src="assets/readme-header.png" alt="" width="480"></p>
+
 
 # web3-tools
 
