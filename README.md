@@ -1,13 +1,15 @@
-
-
 # web3-tools
 
 [![tests](https://github.com/N23eos/web3-tools/actions/workflows/tests.yml/badge.svg)](https://github.com/N23eos/web3-tools/actions/workflows/tests.yml)
 [![license: MIT](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
 
-Generate EVM wallets and find vanity addresses — addresses that start with,
-end with, or contain a hex pattern you choose. One address works across all
-EVM chains (Ethereum, Base, Arbitrum, BSC, Polygon, ...).
+**web3-tools is a Python CLI that generates EVM wallets and searches for vanity addresses.** A vanity search matches a hex pattern at the start, at the end or anywhere in the address, case-insensitively, and uses every CPU core unless told otherwise. Generated wallets are written as CSV or JSON, with or without seed phrases, and one address works on every EVM chain. Before a search it prints a difficulty estimate, so the cost of a longer pattern is visible up front. The only dependency is eth-account, and the suite runs on Python 3.9, 3.12 and 3.14.
+
+<div align="center">
+
+[![Star on GitHub](https://img.shields.io/github/stars/N23eos/web3-tools?style=for-the-badge&logo=github&label=Star%20this%20repo&color=FFD700&labelColor=1a1a1a)](https://github.com/N23eos/web3-tools)
+
+</div>
 
 ## Install
 
